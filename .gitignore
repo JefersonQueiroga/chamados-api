@@ -1,0 +1,45 @@
+# ---------- Segredos ----------
+.env
+.env.*
+!.env.exemplo
+
+# ---------- Dados reais dos alunos e chaves ----------
+*.csv
+*.xlsx
+*.xls
+!turma_exemplo.csv
+
+# ---------- Banco de dados e backups ----------
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backups/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Editores e sistema ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
